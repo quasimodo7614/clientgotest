@@ -14,5 +14,9 @@
 module github.com/quasimodo7614/clientgotest
 
 require (
-	github.com/caicloud/nirvana master
+	github.com/caicloud/nirvana v0.2.5-0.20200617094233-750749f0c40e
+	github.com/spf13/afero v1.2.2 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
 )
+
+go 1.13
